@@ -81,7 +81,7 @@ const FormComponent = () => {
             <span className="ml-3 font-medium text-gray-700 dark:text-gray-300">Meeting Scheduled</span>
           </label>
         </div>
-        <button type="submit" className="bg-blue-500 text-white px-6 py-3 rounded-lg w-full lg:w-auto">Create New Pending Meeting</button>
+        <button type="submit" className="bg-blue-500 text-white px-6 py-3 rounded-lg w-full lg:w-auto">Create New Networking Contact</button>
       </form>
     </div>
   );
