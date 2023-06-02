@@ -10,7 +10,7 @@ function ContactsDisplay() {
       res => res.json()
     ).then(
       data => {
-        setData({ contacts: data.contacts })
+        setData({contacts: data.contacts})
       }
     )
   }, [])
@@ -21,6 +21,7 @@ function ContactsDisplay() {
         data.contacts.map((contact, i) => (
           <p key={i}>{contact}</p>
         ))
+
       ):(
         <p>Loading...</p>
       )}
