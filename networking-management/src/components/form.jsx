@@ -40,6 +40,7 @@ const FormComponent = () => {
             value={formData.contactName}
             onChange={handleInputChange}
             className="w-full px-4 py-2 rounded-lg bg-gray-200 focus:outline-none focus:border-blue-500"
+            placeholder="John Doe"
             required
           />
         </div>
@@ -52,6 +53,7 @@ const FormComponent = () => {
             value={formData.company}
             onChange={handleInputChange}
             className="w-full px-4 py-2 rounded-lg bg-gray-200 focus:outline-none focus:border-blue-500"
+            placeholder="Google, e.g."
             required
           />
         </div>
